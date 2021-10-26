@@ -191,3 +191,76 @@ body {
 .work__column img {
    max-width: 100%;
 }
+
+.faq__item {
+   border-bottom: 1px solid #CACACA;
+   padding: 40px 0;
+}
+.faq__items {
+   list-style-type: none;  
+   margin: 0;
+   padding: 0;
+}
+.faq__item:first-child {
+   border-top: 1px solid #CACACA;
+}
+.footer {
+   background-color: #222;
+   color: #CACACA;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.footer__container {
+   display: flex;
+   justify-content: space-between;
+}
+.footer__column {
+   width: 33.33%;
+}
+.footer__logo {
+   margin-bottom: 20px;
+}
+.footer__menu {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+.footer__menu_link {
+   text-decoration: none;
+   color: #CACACA;
+   display: block;
+   padding-top: 5px;
+   padding-bottom: 5px;
+
+}
+.footer__social_icons {
+   display: flex;
+}
+.icon__fb {
+   background: url(/images/fb.svg) no-repeat center;
+   width: 60px;
+   height: 60px;
+   margin-right: 25px;
+}
+.icon__vk {
+   background: url(/images/vk.svg) no-repeat center;
+   width: 60px;
+   height: 60px;
+   margin-right: 25px;
+}
+.icon__inst {
+   background: url(/images/insta.svg) no-repeat center;
+   width: 60px;
+   height: 60px;
+}
+
+.footer__form {
+   display: flex;
+   flex-direction: column;
+}
+
+.footer__descr {
+   margin-left: auto;
+   max-width: 370px;
+}
