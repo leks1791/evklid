@@ -35,7 +35,7 @@
                   <p class="hero__subtitle">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей
                      день
                      остаются уделом проектантов</p>
-                  <a class="btn hero__btn" href="#">Заказать расчёт</a>
+                  <a class="hero__btn" href="#">Заказать расчёт</a>
                </div>
                <div class="sllider__nav">
                   <div class="slider__circle slider__circle-active"></div>
@@ -90,16 +90,17 @@
          <div class="container">
             <h2 class="section__title">Как мы работаем</h2>
             <ul class="work__tabs">
-               <li class="tabs__item"><a class="tabs__link" href="#">1 шаг</a></li>
-               <li class="tabs__item"><a class="tabs__link" href="#">2 шаг</a></li>
-               <li class="tabs__item"><a class="tabs__link" href="#">3 шаг</a></li>
-               <li class="tabs__item"><a class="tabs__link" href="#">4 шаг</a></li>
+               <li class="tabs__item tabs__item_active">1 шаг</li>
+               <li class="tabs__item">2 шаг</li>
+               <li class="tabs__item">3 шаг</li>
+               <li class="tabs__item">4 шаг</li>
             </ul>
             <div class="work__content">
                <div class="work__column">
                   <div>
-                     <h3>Проводим консультацию</h3>
-                     <p>Влечет за собой процесс внедрения и модернизации приоритизации разума над эмоциями. В рамках
+                     <h3 class="work__title">Проводим консультацию</h3>
+                     <p class="work__text">Влечет за собой процесс внедрения и модернизации приоритизации разума над
+                        эмоциями. В рамках
                         спецификации
                         современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены
                         соответствующими инстанциями. А также представители современных социальных резервов,
@@ -115,8 +116,8 @@
                         призваны к ответу.</p>
                   </div>
                   <div>
-                     <a class="btn" href="#">Подробнее</a>
-                     <a class="btn" href="#">Договор</a>
+                     <a class="btn btn__more" href="#">Подробнее</a>
+                     <a class="btn btn__contract" href="#">Договор</a>
                   </div>
                </div>
                <div class="work__column">
@@ -127,14 +128,49 @@
       </section>
       <section class="faq">
          <div class="container">
-            <h2 class="section__title">Часто задаваемые вопросы</h2>
+            <h2 class="section__title faq">Часто задаваемые вопросы</h2>
             <ul class="faq__items">
-               <li class="faq__item">Из чего формируется конечная стоимость проекта?</li>
-               <li class="faq__item">У меня есть свой проект. Сможем ли мы его доработать / реализовать?</li>
-               <li class="faq__item">У меня есть свой проект. Сможем ли мы его доработать / реализовать?</li>
-               <li class="faq__item">У меня есть свой проект. Сможем ли мы его доработать / реализовать?</li>
-               <li class="faq__item">У меня есть свой проект. Сможем ли мы его доработать / реализовать?</li>
-               <li class="faq__item">У меня есть свой проект. Сможем ли мы его доработать / реализовать?</li>
+               <li class="faq__item">
+                  Из чего формируется конечная стоимость проекта?
+                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC" />
+                     <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
+                        fill="#666666" />
+                  </svg>
+               </li>
+               <li class="faq__item">У меня есть свой проект. Сможем ли мы его доработать / реализовать?
+                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC" />
+                     <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
+                        fill="#666666" />
+                  </svg>
+               </li>
+               <li class="faq__item">Я выбираю между разными компаниями. В чём ваше отличие?
+                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC" />
+                     <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
+                        fill="#666666" />
+                  </svg>
+               </li>
+               <li class="faq__item">Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?
+                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC" />
+                     <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
+                        fill="#666666" />
+                  </svg>
+               </li>
+               <li class="faq__item">Могу ли я вернуть деньги на каком-либо из этапов работ?
+                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC" />
+                     <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
+                        fill="#666666" />
+                  </svg>
+               </li>
             </ul>
          </div>
       </section>
@@ -160,12 +196,13 @@
          </div>
          <div class="footer__column">
             <form class="footer__form" action="#">
+
                <legend>Оставить заявку</legend>
-               <input type="name" placeholder="Фамилия, имя и отчество*" required>
+               <input type="text" placeholder="Фамилия, имя и отчество*" required>
                <input type="email" placeholder="E-mail*" required>
-               <textarea name="message" placeholder="Сообщение" cols="30" rows="10"></textarea>
-               <div>
-                  <button type="submit">Отправить данные</button>
+               <textarea name="message" placeholder="Сообщение" rows="8"></textarea>
+               <div class="form__btn__group">
+                  <button class="btn__form" type="submit">Отправить данные</button>
                   <input type="checkbox" id="checkbox" name="checkbox">
                   <label for="checkbox">Согласен на обработку данных</label>
                </div>
