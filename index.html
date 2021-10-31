@@ -178,16 +178,18 @@
    <footer class="footer">
       <div class="container footer__container">
          <div class="footer__column">
-            <img class="footer__logo" src="images/footer_logo.png" alt="logo">
-            <ul class="footer__menu">
-               <li><a href="#" class="footer__menu_link">О нас</a></li>
-               <li><a href="#" class="footer__menu_link">Проекты</a></li>
-               <li><a href="#" class="footer__menu_link">Отзывы</a></li>
-               <li><a href="#" class="footer__menu_link">Договор оферты</a></li>
-               <li><a href="#" class="footer__menu_link">Договор подряда</a></li>
-               <li><a href="#" class="footer__menu_link">Конфиденциальность</a></li>
-               <li><a href="#" class="footer__menu_link">Партнёрское соглашение</a></li>
-            </ul>
+            <div>
+               <img class="footer__logo" src="images/footer_logo.png" alt="logo">
+               <ul class="footer__menu">
+                  <li><a href="#" class="footer__menu_link">О нас</a></li>
+                  <li><a href="#" class="footer__menu_link">Проекты</a></li>
+                  <li><a href="#" class="footer__menu_link">Отзывы</a></li>
+                  <li><a href="#" class="footer__menu_link">Договор оферты</a></li>
+                  <li><a href="#" class="footer__menu_link">Договор подряда</a></li>
+                  <li><a href="#" class="footer__menu_link">Конфиденциальность</a></li>
+                  <li><a href="#" class="footer__menu_link">Партнёрское соглашение</a></li>
+               </ul>
+            </div>
             <div class="footer__social_icons">
                <div class="icon__fb"></div>
                <div class="icon__vk"></div>
@@ -197,14 +199,17 @@
          <div class="footer__column">
             <form class="footer__form" action="#">
 
-               <legend>Оставить заявку</legend>
+               <legend class="form__title">Оставить заявку</legend>
                <input type="text" placeholder="Фамилия, имя и отчество*" required>
                <input type="email" placeholder="E-mail*" required>
                <textarea name="message" placeholder="Сообщение" rows="8"></textarea>
                <div class="form__btn__group">
                   <button class="btn__form" type="submit">Отправить данные</button>
-                  <input type="checkbox" id="checkbox" name="checkbox">
-                  <label for="checkbox">Согласен на обработку данных</label>
+                  <div class="checkbox">
+                     <input class="custom-checkbox" type="checkbox" id="checkbox" name="checkbox" value="indigo">
+                     <label for="checkbox">Согласен на обработку данных</label>
+                  </div>
+
                </div>
             </form>
          </div>
